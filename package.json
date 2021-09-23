@@ -1,7 +1,7 @@
 {
-  "name": "lion-design",
-  "version": "1.0.2",
-  "author": "Lion",
+  "name": "design-founder",
+  "version": "1.0.3",
+  "author": "zhangpinguknow",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
