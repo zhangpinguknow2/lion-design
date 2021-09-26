@@ -1,6 +1,6 @@
 {
   "name": "design-founder",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "zhangpinguknow",
   "private": false,
   "main": "dist/index.js",
@@ -63,16 +63,22 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "rimraf": "^3.0.2",
+    "echarts": "^4.8.0",
+    "highcharts": "^8.2.0",
+    "lodash": "^4.17.15",
     "node-sass": "^4.13.0",
-    "react-scripts": "4.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "rimraf": "^3.0.2",
     "typescript": "^4.0.3"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
+  },
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
   },
   "resolutions": {
     "@storybook/react/babel-loader": "8.1.0"

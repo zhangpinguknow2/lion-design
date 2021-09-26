@@ -1,0 +1,210 @@
+/**
+ * Created by fanweihua on 2020/09/24.
+ * 考核分析公共样式
+ */
+.analysis-assess {
+  .career_Self_Card {
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    .career_Self_Card {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .career_Self_Title {
+    width: 100%;
+    height: 4vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    > span {
+      font-size: 2.5vh;
+      font-family: 'headerFont', Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(-1deg, #80efff 0%, #fff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .career_Self_Table {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    height: calc(22vh - 5px);
+    .career_Self_Table_Header {
+      display: flex;
+      border: 0.1vh solid rgba(1, 180, 255, 0.35);
+      > div {
+        height: 3.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7vh;
+        color: #fff;
+        background-image: linear-gradient(92deg, rgba(8, 37, 183, 0.15), rgba(1, 180, 255, 0.35));
+      }
+    }
+    .career_Self_Table_Body {
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      > div {
+        display: flex;
+        border: 0.1vh solid rgba(61, 150, 250, 0.25);
+        margin-top: -0.1vh;
+        > div {
+          height: 3.2vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.7vh;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .row-22 {
+    height: 22vh;
+  }
+  .row-24 {
+    height: 24vh;
+  }
+  .career_Self_Inner_Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .career_Self_Inner_Item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 8vh;
+      height: 8vh;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .career_Self_Inner_Label {
+      font-size: 1.8vh;
+      color: rgba(0, 255, 255, 1);
+    }
+    @keyframes jump {
+      0% {
+        transform: translateX(0) translateY(0);
+      }
+      10% {
+        transform: translateX(0.1vh) translateY(-0.4vh);
+      }
+      20% {
+        transform: translateX(0.2vh) translateY(-0.1vh);
+      }
+      30% {
+        transform: translateX(0.2vh) translateY(0.2vh);
+      }
+      50% {
+        transform: translateX(0) translateY(0);
+      }
+      70% {
+        transform: translateX(0) translateY(0.3vh);
+      }
+      80% {
+        transform: translateX(0.1vh) translateY(0.25vh);
+      }
+      100% {
+        transform: translateX(0) translateY(0);
+      }
+    }
+  }
+}
+.information {
+  width: 100%;
+  height: 135px;
+  position: relative;
+  // .pie-wrapper {
+  //   // position: relative;
+  //   // width: 300px;
+  //   // height: 190px;
+  //   .pie-class {
+  //     // position: absolute;
+  //     // top: 35px;
+  //     // left: 50px;
+  //     .cycle-img1,
+  //     .cycle-img2 {
+  //       // width: 250px;
+  //       position: absolute;
+  //     }
+  //     .cycle-img2 {
+  //       top: -16%;
+  //       left: -10%;
+  //     }
+  //   }
+  //   .module {
+  //     position: absolute;
+  //     width: 100%;
+  //     height: 100%;
+  //     left: -56px;
+  //     top: -130px;
+  //   }
+  // }
+  .pie-ring {
+    height: 100%;
+    position: relative;
+    .pie-class {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      .cycle-img1,
+      .cycle-img2 {
+        position: absolute;
+        top: 13%;
+        left: 24%;
+      }
+      .cycle-img2 {
+        top: 1%;
+        left: 15%;
+      }
+    }
+    .module {
+      width: 100%;
+      height: 100%;
+      .module-content {
+        width: 100%;
+        height: 100%;
+        .row-24 {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .highcharts-legend-item {
+      display: inline !important;
+    }
+  }
+  .piedim {
+    width: 100%;
+    height: 100%;
+    .pie-class {
+      .cycle-img1,
+      .cycle-img2 {
+        position: absolute;
+        top: 20%;
+        left: 22%;
+      }
+      .cycle-img2 {
+        top: 10%;
+        left: 15%;
+      }
+    }
+    .module {
+      width: 100%;
+      height: 100%;
+      .module-content {
+        width: 100%;
+        height: 100%;
+        .row-24 {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
